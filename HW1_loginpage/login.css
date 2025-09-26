@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f6f7f9, #e9ebef);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.login-box {
+  background: #fff;
+  padding: 50px 50px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 390px;
+  text-align: left;
+}
+
+.logo {
+  width: 80px;
+  margin: 0 12px 0 0;
+}
+
+.title-text {
+  text-align: left;
+}
+.title-text h3 {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+}
+.title-text h2 {
+  color: #587fbe;
+  font-size: 18px;
+  margin: 4px 0 0;
+}
+
+form input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #838181;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form button {
+  width: 30%;
+  padding: 10px;
+  background: #0364b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #005fa3;
+}
+
+.forgot {
+  display: block;
+  text-align: left;
+  font-size: 13px;
+  margin-top: 20px;
+  color: #0070c9;
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+.lang {
+  color: #0070c9;
+  cursor: pointer;
+}
+
+.cookies {
+  background: #e1e4e8;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+.cookies:hover {
+  background: #d0d4d9;
+}
+
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+/* đường kẻ ngang trên footer */
+.footer {
+  border-top: 1px solid #ddd; /* kẻ ngang */
+  padding-top: 15px;
+  margin-top: 25px;
+  font-size: 13px;
+}
+
+/* khung ngôn ngữ + cookies */
+.lang-box {
+  display: flex;
+  align-items: center;
+}
+
+/* chọn ngôn ngữ */
+.lang-select {
+  border: none;
+  background: none;
+  color: #0070c9;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* đường kẻ dọc */
+.divider {
+  width: 1px;
+  background: #ddd;
+  height: 35px;
+  margin: 0 20px;
+}
+
+/* nút cookies */
+.cookies {
+  background: #cfd2d4;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.cookies:hover {
+  background: #d0d4d9;
+}
